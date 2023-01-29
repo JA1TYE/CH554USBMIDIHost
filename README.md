@@ -14,6 +14,8 @@ CH554's UART1(TX:P1.7/RX:P1.6) are used for debugging.
 
 MIDI events from USB-MIDI device on the cable index 0 (Most of USB-MIDI device uses cable index 0) are converted into MIDI 1.0 messages and send to UART0 and vice versa.
 
+Currently, this example doesn't support USB-MIDI device that have a USB Hub (ex. KORG microKEY 1st model etc.)
+
 ## Tested USB-MIDI Device
 - microKEY2 (KORG)
 - nanoKEY2/nanoKONTROL2(KORG)
